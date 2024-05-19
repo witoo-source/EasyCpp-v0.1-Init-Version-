@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyCpp - Tu biblioteca C++ fácil de usar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1>EasyCpp</h1>
+                <ul>
+                    <li><a href="#features">Características</a></li>
+                    <li><a href="#usage">Uso</a></li>
+                    <li><a href="#download">Descarga</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Bienvenido a EasyCpp</h2>
+            <p>Una biblioteca C++ fácil de usar para principiantes y profesionales.</p>
+            <a href="#features" class="btn">Descubre más</a>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <h2>Características de EasyCpp</h2>
+            <div class="feature">
+                <h3>Interfaz sencilla</h3>
+                <p>Utiliza una interfaz simple y clara que facilita su uso para todos los niveles de experiencia.</p>
+            </div>
+            <div class="feature">
+                <h3>Funciones útiles</h3>
+                <p>Contiene funciones útiles como suma, resta, multiplicación, división y más.</p>
+            </div>
+            <div class="feature">
+                <h3>Compatibilidad</h3>
+                <p>Compatible con todas las versiones modernas de C++ y es fácilmente integrable en proyectos existentes.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="usage">
+        <div class="container">
+            <h2>Uso de EasyCpp</h2>
+            <p>EasyCpp es muy fácil de integrar en tu proyecto. Aquí tienes un ejemplo básico:</p>
+            <pre><code>#include "init.h"
+
+int main() {
+    init calc(1);
+
+    // Ejemplo de uso
+    int resultado = calc.sum(5, 3);
+    calc.write("El resultado es: ").write(resultado).endline();
+
+    return 0;
+}
+</code></pre>
+        </div>
+    </section>
+
+    <section id="download">
+        <div class="container">
+            <h2>Descarga EasyCpp</h2>
+            <p>Puedes descargar EasyCpp desde GitHub.</p>
+            <a href="https://github.com/tu_usuario/EasyCpp" class="btn">Descargar ahora</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>¿Tienes alguna pregunta o comentario? ¡Contáctanos!</p>
+            <form action="submit.php" method="post">
+                <input type="text" name="name" placeholder="Tu nombre" required>
+                <input type="email" name="email" placeholder="Tu correo electrónico" required>
+                <textarea name="message" rows="5" placeholder="Tu mensaje" required></textarea>
+                <button type="submit" class="btn">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 EasyCpp. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
